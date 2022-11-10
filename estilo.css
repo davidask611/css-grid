@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    float: right;
+    margin-right: 150px;
+    border-radius: 20% 0 20% 0;
+    border: solid;
+    background-color: aqua;
+    color: blue;
+}
+
+.contenedor {
+    width: 90%;
+    height: 600px;
+    border: soli;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: red;
+}
+
+.item {
+    display: flex;
+    width: 90%;
+    margin: 5px auto;
+    border: soli 7px black;
+    background-color: blue;
+    padding: 5px ;
+
+
+}
+
+img {
+    width: 90%;
+    margin: 10px auto;
+
+}
